@@ -1,20 +1,5 @@
 package Frs.api1.Controller;
 
-<<<<<<< HEAD
-import org.springframework.web.bind.annotation.GetMapping;
-
-import org.springframework.web.bind.annotation.RestController;
-
-
-
-@RestController("/")
-public class uploadController {
-
-    @GetMapping("/api")
-    public void test(){
-      System.out.println("test api access");
-    }
-=======
 import java.io.IOException;
 
 import org.springframework.http.HttpStatus;
@@ -32,12 +17,12 @@ import Frs.api1.Service.FileUploadService;
 @RestController
 @RequestMapping("/")
 @CrossOrigin(origins = "http://localhost:3001")
-public class UploadController {
+public class uploadController {
 
   // DI with contructor
   private final FileUploadService fileUploadService;
 
-  public UploadController(FileUploadService fileUploadService) {
+  public uploadController(FileUploadService fileUploadService) {
     this.fileUploadService = fileUploadService;
   }
 
@@ -61,5 +46,4 @@ public class UploadController {
 
   }
 
->>>>>>> 2ac0210 (commit api consume vue js post request)
 }

@@ -3,11 +3,9 @@ package Frs.api1.Service;
 import org.springframework.stereotype.Service;
 
 @Service
-<<<<<<< HEAD
-public class fileUploadService {
-=======
+
+
 public class FileUploadService {
->>>>>>> 2ac0210 (commit api consume vue js post request)
 
     // Méthode pour enregistrer le fichier et les données associées en base de données ou ailleurs
     public void saveFile(String firstName, String lastName, byte[] fileData) {
