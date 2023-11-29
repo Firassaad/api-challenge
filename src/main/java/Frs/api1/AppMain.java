@@ -2,10 +2,6 @@ package Frs.api1;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.ApplicationContext;
-
-@SpringBootApplication(scanBasePackages = "Frs.api1.Controller")
-public class AppMain {
 
 @SpringBootApplication(scanBasePackages = "Frs.api1")
 public class AppMain {
