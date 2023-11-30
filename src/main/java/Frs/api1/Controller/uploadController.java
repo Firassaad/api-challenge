@@ -16,13 +16,13 @@ import Frs.api1.Service.FileUploadService;
 
 @RestController
 @RequestMapping("/")
-@CrossOrigin(origins = "http://localhost:3001")
-public class uploadController {
+@CrossOrigin(origins = "http://localhost:3000")
+public class UploadController {
 
   // DI with contructor
   private final FileUploadService fileUploadService;
 
-  public uploadController(FileUploadService fileUploadService) {
+  public UploadController(FileUploadService fileUploadService) {
     this.fileUploadService = fileUploadService;
   }
 

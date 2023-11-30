@@ -3,8 +3,6 @@ package Frs.api1.Service;
 import org.springframework.stereotype.Service;
 
 @Service
-
-
 public class FileUploadService {
 
     // Méthode pour enregistrer le fichier et les données associées en base de données ou ailleurs
@@ -15,6 +13,7 @@ public class FileUploadService {
         // À titre d'exemple, imprimez simplement les données pour le moment
         System.out.println("Saving file for: " + firstName + " " + lastName);
         System.out.println("File size: " + fileData.length + " bytes");
+
 
         // Ajoutez ici la logique pour enregistrer le fichier dans la base de données ou
         // tout autre traitement nécessaire.
